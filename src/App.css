@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.text {
+    width: fit-content;
+}
+
+.text-area {
+    width: 500px;
+    height: 500px;
+    resize: none;
+}
+
+.result {
+    width: 500px;
+    height: 500px;
+}
+
+@media only screen and (max-width:500px) {
+    .text {
+        width: 100%;
+    }
+
+    .result {
+        width: 100%;
+    }
+}
